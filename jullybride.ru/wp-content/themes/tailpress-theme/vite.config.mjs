@@ -12,6 +12,8 @@ export default defineConfig(({ command }) => {
             port: 3000,
             cors: true,
             origin: 'http://wordpress.local',
+            // Иначе запросы с Host host.docker.internal (из контейнера WP) дают 403 → TailPress думает, что Vite не запущен
+            allowedHosts: true,
         },
         build: {
             manifest: true,
