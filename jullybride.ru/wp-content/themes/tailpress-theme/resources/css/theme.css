@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap');
-
-@layer components {
-    .logo-font {
-        font-family: 'Great Vibes', cursive;
-    }
-    .main-font {
-        font-family: 'Montserrat', sans-serif;
-    }
-    .nav-item {
-        @apply transition-all duration-300 hover:opacity-70 cursor-pointer;
-    }
-}
-
 @theme {
     --breakpoint-xs: 480px;
     --breakpoint-sm: 600px;

@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/jullybride.ru/wp-content/plugins/advanced-custom-fields-pro" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/jullybride.ru/wp-content/plugins/wp-rocket" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/jullybride.ru/wp-content/themes/tailpress-theme" vcs="Git" />
   </component>
 </project>
