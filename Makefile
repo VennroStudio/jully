@@ -37,3 +37,8 @@ npm-dev: ## Запуск компиляции в реальном времени
 
 npm-build: ## Сборка темы для продакшена
 	docker run --rm -v $(PWD):/app -w /app/$(THEME_PATH) node:20 npm run build
+
+push:
+	git add .
+	git commit -m "save"
+	git push origin main
