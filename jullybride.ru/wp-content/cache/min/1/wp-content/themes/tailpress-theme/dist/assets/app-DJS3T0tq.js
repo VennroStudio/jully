@@ -1,1 +1,0 @@
-window.addEventListener("load",function(){let e=document.getElementById("primary-navigation"),n=document.getElementById("primary-menu-toggle");e&&n&&n.addEventListener("click",function(t){t.preventDefault(),e.classList.toggle("hidden")})})
